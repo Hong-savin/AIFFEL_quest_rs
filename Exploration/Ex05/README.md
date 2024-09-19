@@ -9,6 +9,7 @@
         - 중요! 해당 조건을 만족하는 부분을 캡쳐해 근거로 첨부
      
     ![image](https://github.com/user-attachments/assets/f6714958-e8ad-4678-8554-941b76a62a77)
+    
     CNN 모델을 Conv1D 층 사이마다 BatchNormalization을 넣고 GlobalmaxPooling한 점이 좋았다. 또 CNN 뿐만 아닌 LSTM 모델 등 다양한 모델로 Word2Vec을 시도한 점이 흥미로웠다.
     
 - [X]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
@@ -20,6 +21,7 @@
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
     
     ![image](https://github.com/user-attachments/assets/cdfda375-4db2-4d60-89b5-454e47a4fcc7)
+    
     Gensim을 사용하는 부분에서 주석 설명을 통해 어떠한 과정으로 학습이 되고 비교 분석이 되는지 그 과정을 잘 알 수 있었다.     
         
 - [X]  **3. 에러가 난 부분을 디버깅하여 문제를 해결한 기록을 남겼거나
@@ -30,6 +32,7 @@
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
 
     ![image](https://github.com/user-attachments/assets/f4a58caf-8ef1-49ed-adf5-4df40718b5ad)
+    
     LSTM 모델을 학습할 때 바로 에폭이 시작되지 않고 WARNING 메시지에 대한 설명을 통해 에러의 판별이 되는지 아닌지를 잘 구분하였다. 결과의 정확도에 영향을 줄 수는 있으나 넘어가도 되는 부분이기에 혹시 직접 실행해본다면 놀라지 않아도 된다는 뜻을 잘 받았다.
     
         
@@ -40,6 +43,7 @@
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
 
     ![image](https://github.com/user-attachments/assets/6c0577e5-b236-4fa2-8911-6bcfd39f1fb6)
+    
     accuracy를 높이기 위해 에폭을 오래 기다린 흔적이 보였다. 꼭 알맞는 에폭 크기를 찾아서 정확도를 높이는 것에 응원하게 만든 회고였다:)
      
     
@@ -50,6 +54,7 @@
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
      
     ![image](https://github.com/user-attachments/assets/4b00e703-922e-42cd-8a74-c94c376fddd6)
+    
     Transformer 인코더 부분을 함수화를 통해 깔끔하게 정리했고, Call, 트랜스포머 모델 함수도 세세한 모듈화로 잘 구분해 놓을 수 있는 부분에 칭찬을 드린다. 
 
 # 회고(참고 링크 및 코드 개선)
